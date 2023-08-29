@@ -64,10 +64,68 @@ INIZIO LISTA
 }
 
 .Name_Section-list{
-    padding-top: 10px;
+    
+    font-size: 30px;
+    color: black;
+    margin-top: 40px;
 
 }
 
 .Name_Element-list{
-    padding:0px
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+/*
+BOTTONI COLORATI
+*/
+
+.bg_blu{
+    padding: 5px;
+    background-color: rgb(116, 198, 245);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bg_violet{
+    padding: 5px;
+    background-color: rgb(120, 43, 136);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bg_green{
+    padding: 5px;
+    background-color: rgb(16, 112, 48);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bg_orange{
+    padding: 5px;
+    background-color: rgb(175, 111, 16);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bg_purple{
+    padding: 5px;
+    background-color: rgb(221, 28, 211);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.bg_yellow{
+    padding: 5px;
+    background-color: rgb(202, 226, 147);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
 }

@@ -5,12 +5,16 @@
 }
 
 body{
-    background-image:url(../img/sfondo-grigio.jpg) ;
+    background-color: lightgray;
 }
 
+header{
+    background-color: white;
+}
 
 ol, ul {
     list-style: none;
+    padding: 0;
 }
 
 /*
@@ -40,12 +44,30 @@ TITOLO LISTA
 /*
 INIZIO LISTA
 */
+.conteiner_1{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid lightgrey;
+}
 
 .conteiner{
     width: 1300px;
     height: 100%;
     margin: 0 auto;
     background-color: white;
-    padding: 50px;
+    padding: 30px;
+    border-radius: 5px;
 }
 
+.Name_Section-list{
+    padding-top: 10px;
+
+}
+
+.Name_Element-list{
+    padding:0px
+}

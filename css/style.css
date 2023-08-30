@@ -49,7 +49,7 @@ TITOLO LISTA
 BOTTONI 
 */
 
-.button_1{
+.button-blu{
     background-color: rgb(116, 198, 245);
     color: #fff;
     border: none; 
@@ -60,7 +60,7 @@ BOTTONI
     
 }
 
-.button_2{
+.button-white{
     background-color: rgb(255, 255, 255);
     color: #a1a1a1;
     border: none; 
@@ -74,7 +74,7 @@ BOTTONI
 /*
 INIZIO LISTA
 */
-.conteiner_1{
+.conteiner-top{
     width: 1300px;
     margin: 0 auto;
     background-color: white;
@@ -84,7 +84,7 @@ INIZIO LISTA
     border-bottom: 2px solid lightgrey;
 }
 
-.conteiner{
+.conteiner-bot{
     width: 1300px;
     height: 100%;
     margin: 0 auto;
@@ -93,14 +93,14 @@ INIZIO LISTA
     border-radius: 5px;
 }
 
-.name_section-list{
+.card-list{
     font-size: 30px;
     color: black;
     margin-top: 40px;
 
 }
 
-.name_element-list{
+.card-element{
     padding: 5px;
     margin-left: 10px;
     font-size: 20px;
@@ -145,16 +145,23 @@ SEZIONI COLORATE
 CROCI E SPUNTE COLORATE
 */
 
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 30px;
+    margin-right: 10px;
+}
+
 .red-cross{
     border: 1px solid red;
     color: red;
-    border-radius: 50%;
-    padding: 2px;
+    text-align: center;
 }
 
 .green-check{
     border: 1px solid green;
     color: green;
-    border-radius: 50%;
-    padding: 2px;
+    text-align: center;
+    margin-right: 10px;
 }

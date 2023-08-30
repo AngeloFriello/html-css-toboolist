@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Archivo Black', sans-serif;
+}
+
 body{
     background-color: lightgray;
 }
@@ -35,7 +39,7 @@ TITOLO LISTA
 }
 
 
-.Name_list{
+.name_list{
     display: inline-block;
     font-size: 60px;
     vertical-align:center;
@@ -64,7 +68,6 @@ BOTTONI
     padding: 10px;
     height: 35px; 
     width: 120px;
-    
     border: 1px solid gray;
 }
 
@@ -90,14 +93,14 @@ INIZIO LISTA
     border-radius: 5px;
 }
 
-.Name_Section-list{
+.name_section-list{
     font-size: 30px;
     color: black;
     margin-top: 40px;
 
 }
 
-.Name_Element-list{
+.name_element-list{
     padding: 5px;
     margin-left: 10px;
     font-size: 20px;
@@ -108,50 +111,50 @@ INIZIO LISTA
 SEZIONI COLORATE
 */
 
-.bg_blu{
-    padding: 5px;
-    background-color: rgb(116, 198, 245);
-    color: white;
+.box{
     border-radius: 10px;
     font-size: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.bg_blu{
+    background-color: rgb(116, 198, 245);
 }
 
 .bg_violet{
-    padding: 5px;
     background-color: rgb(120, 43, 136);
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
 }
 
 .bg_green{
-    padding: 5px;
     background-color: rgb(16, 112, 48);
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
 }
 
 .bg_orange{
-    padding: 5px;
     background-color: rgb(175, 111, 16);
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
 }
 
 .bg_purple{
-    padding: 5px;
     background-color: rgb(221, 28, 211);
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
 }
 
 .bg_yellow{
-    padding: 5px;
     background-color: rgb(202, 226, 147);
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
+}
+/*
+CROCI E SPUNTE COLORATE
+*/
+
+.red-cross{
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.green-check{
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 2px;
 }
